@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:state_management_bloc/login_demo/app.dart';
 
-import 'infinite_list_demo/posts/app.dart';
+import 'login_demo/packages/authentication_repository.dart';
+import 'login_demo/packages/user_repository.dart';
+
+
 
 void main() {
-  // Bloc.observer = CounterObserver();
-  runApp(const InfiniteListApp());
+  runApp(
+    LoginApp(
+      authenticationRepository: AuthenticationRepository(),
+      userRepository: UserRepository(),
+    ),
+  );
 }
