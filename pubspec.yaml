@@ -41,6 +41,14 @@ dependencies:
   equatable: ^2.0.3
   http: ^0.13.0
   stream_transform: ^2.0.0
+  formz: ^0.4.0
+  uuid: ^3.0.0
+
+#  authentication_repository:
+#    path: lib/login_demo/packages/authentication_repository
+
+#  user_repository:
+#    path: lib/login_demo/packages/user_repository
 
 dev_dependencies:
   flutter_test:
